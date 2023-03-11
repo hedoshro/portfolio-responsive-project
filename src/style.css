@@ -18,6 +18,7 @@ h1 {
   font-weight: bold;
   font-size: 96px;
   color: black;
+  line-height: 1.5;
 }
 h2 {
   font-family: var(--default-font-family);
@@ -52,4 +53,66 @@ h2 {
 .contact-btn:hover {
   color: #000000;
   transition: ease-in-out 200ms;
+}
+.project-description {
+  padding: 120px 60px;
+}
+.feature-project {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 197px;
+}
+.heading-project {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+  margin-bottom: 55px;
+}
+.paragraph-project {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #272142;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.btn-project {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px 30px;
+  margin-top: 50px;
+}
+.btn-project:hover {
+  color: #fff;
+  background-color: var(--branding-color);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .hero {
+    padding-top: 80px 20px;
+  }
+  .heading-project {
+    margin-bottom: 0;
+    font-size: 44px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
