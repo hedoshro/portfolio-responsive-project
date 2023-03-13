@@ -166,6 +166,37 @@ h2 {
   text-align: center;
   margin-top: 100px;
 }
+/*work page styles*/
+
+.work-page {
+  padding: 160px 20px;
+  margin-bottom: 5px;
+}
+.work-page h1 {
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  font-weight: bold;
+}
+.work-page-image {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.describe h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+.describe p {
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #272142;
+  opacity: 0.7;
+  margin: 0;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -191,6 +222,11 @@ h2 {
     padding: 0;
   }
   .about-section h1 {
+    font-size: 60px;
+  }
+  .work-page {
+    text-align: center;
+    padding: 0;
     font-size: 60px;
   }
 }
