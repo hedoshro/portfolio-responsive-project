@@ -229,4 +229,11 @@ h2 {
     padding: 0;
     font-size: 60px;
   }
+  .inquiry-section {
+    text-align: center;
+  }
+  .Inquiry-btn {
+    display: block;
+    margin: 0 auto;
+  }
 }
