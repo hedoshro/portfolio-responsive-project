@@ -197,6 +197,13 @@ h2 {
   opacity: 0.7;
   margin: 0;
 }
+/*contact-me-style*/
+.contact-me-section {
+  padding: 160px 20px;
+  font-weight: bold;
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -235,5 +242,8 @@ h2 {
   .Inquiry-btn {
     display: block;
     margin: 0 auto;
+  }
+  .contact-me-section {
+    text-align: center;
   }
 }
