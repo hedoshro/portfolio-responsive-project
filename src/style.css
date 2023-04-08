@@ -29,6 +29,9 @@ h2 {
   margin-bottom: 49px;
   color: #272142;
 }
+nav {
+  padding: 20px 0;
+}
 nav ul {
   margin: 0;
   padding: 0;
@@ -36,8 +39,18 @@ nav ul {
 nav li {
   list-style: none;
   display: inline;
+  line-height: 42px;
+  margin-left: 10px;
 }
-
+nav a {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  color: #272142;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 .logo {
   max-width: 150px;
 }
