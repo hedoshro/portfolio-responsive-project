@@ -52,7 +52,7 @@ nav li.active a {
   color: var(--branding-color);
 }
 .logo {
-  max-width: 40px;
+  max-width: 150px;
 }
 
 .hero {
@@ -124,7 +124,7 @@ nav li.active a {
 }
 /*about-me-style*/
 .about-section {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .about-content-section {
   margin: 30px;
@@ -164,7 +164,7 @@ nav li.active a {
 }
 .about-section .link-btn:hover {
   color: #000000;
-  transition: ease-in-out 200ms;
+  transition: all 200ms ease-in-out;
 }
 
 /*work page styles*/
@@ -175,7 +175,7 @@ nav li.active a {
 }
 .work-page h1 {
   font-family: var(--heading-font-family);
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
 }
 .work-page-image {
@@ -199,11 +199,13 @@ nav li.active a {
   margin: 0;
 }
 /*contact-me-style*/
+
 .contact-me-section h1 {
-  padding: 160px 20px;
+  padding: 80px 20px;
   font-weight: bold;
   font-size: 64px;
   font-family: var(--heading-font-family);
+  margin: 0;
 }
 /*footer*/
 footer .work-inquiry {
@@ -223,19 +225,17 @@ footer p {
   margin: 0;
 }
 .inquiry-btn {
-  border: 1px solid #000000;
+  background: var(--branding-color);
   border-radius: 4px;
-  background-color: var(--branding-color);
   color: white;
-  font-family: var(--default-font-family);
-  font-weight: medium;
   font-size: 18px;
-  padding: 18px 30px;
-  line-height: 10px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 .inquiry-btn:hover {
   color: #000000;
   transition: all 200ms ease-in-out;
+  background-color: var(--branding-color);
 }
 footer p {
   font-family: var(--default-font-family);
@@ -243,18 +243,19 @@ footer p {
   font-weight: 100;
   color: #000000;
   text-align: center;
+  margin-top: 30px;
 }
 footer.fab {
   border-radius: 50%;
 }
 
-footer a {
+footer .icon-footer {
   font-size: 18px;
   background-color: var(--secondary-color);
 
   border-radius: 50%;
 }
-footer a:hover {
+footer .icon-footer:hover {
   background-color: #a07bcb;
   font-size: 28px;
   border-radius: 50%;
@@ -267,6 +268,9 @@ footer a:hover {
   }
   h2 {
     font-size: 20px;
+  }
+  .logo {
+    max-width: 40px;
   }
   .hero {
     padding-top: 80px 20px;

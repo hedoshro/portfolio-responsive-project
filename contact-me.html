@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>About me</title>
+    <meta name="description" content="get in touch with Hedi Rahimi" />
+    <title>Contact Hedi Rahimi</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -37,38 +37,94 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo.png"
+          alt="SheCodes logo"
+          class="logo d-none d-md-block"
+        />
+        <img
+          src="/images/logo-smaller.jpg"
+          alt="logo"
+          class="logo d-block d-md-none"
+        />
+
+        <ul>
+          <li>
+            <a href="/index.html" target="_blank" title="homepage"> Home</a>
+          </li>
+
+          <li>
+            <a href="/about.html" target="_blank" title="about Hedi Rahimi"
+              >About</a
+            >
+          </li>
+
+          <li>
+            <a href="/work-page.html" target="_blank" title="Hedi Rahimi's work"
+              >Work</a
+            >
+          </li>
+
+          <li class="active">
+            <a
+              href="/contact-me.html"
+              target="_blank"
+              title="contact Hedi Rahimi"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container contact-me-section">
-      <h1 class="mb-5">Let's get in touch!</h1>
-      <h3>Email</h3>
-      <p>
-        <a
-          href="mailto:hedierhorh@gmail.com"
-          target="_blank
-        "
+      <h1 class="text-center">Let's get in touch!</h1>
+
+      <footer>
+        <div
+          class="work-inquiry d-flex justify-content-between mb-5 d-none d-md-flex"
         >
-          hedierhorh@gmail.com</a
-        >
-      </p>
-      <h3>Twitter</h3>
-      <p>
-        <a
-          href="https://www.twitter.com"
-          target="_blank
-        "
-        >
-          @hedie
-        </a>
-      </p>
-      <h3>Instagram</h3>
-      <p>
-        <a
-          href="https://www.instagram.com/Hedoshro"
-          target="_blank
-        "
-        >
-          @hedoshro
-        </a>
-      </p>
+          <div>
+            <h3>Work-inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact-me.html" class="btn inquiry-btn mt-3"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <p>Hedierhorh@gmail.com</p>
+        <div class="social-media-icons text-center m-3">
+          <a
+            href="https://www.github.com/"
+            class="m-4 icon-footer"
+            target="_blank"
+            ><i class="fab m-2 fa-github" style="color: #6c63ff"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/"
+            class="m-4 icon-footer"
+            target="_blank"
+            ><i class="fab m-2 fa-facebook" style="color: #6c63ff"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/"
+            class="m-4 icon-footer"
+            target="_blank"
+            ><i class="fab m-2 fa-twitter" style="color: #6c63ff"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          Thos project is coded by Hedi Rahimi and is
+          <a
+            href="https://github.com/hedoshro/portfolio-responsive-project"
+            target="_blank"
+            >open-soureced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
