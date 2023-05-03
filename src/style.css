@@ -302,6 +302,11 @@ footer .icon-footer:hover {
   }
 }
 @media (max-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .work-page h1 {
     font-weight: 700;
     font-size: 24px;
